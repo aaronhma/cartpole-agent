@@ -56,7 +56,7 @@ def train_eval(
     fc_layer_params=LAYER_PARAMETERS,
     # Parameters for collect
     initial_collect_steps=COLLECT_STEPS,
-    collect_steps_per_iteration=1,
+    collect_steps_per_iteration=COLLECT_STEPS,
     epsilon_greedy=0.1,
     replay_buffer_capacity=100000,
     # Parameters for target update
