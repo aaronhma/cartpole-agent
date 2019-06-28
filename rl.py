@@ -70,7 +70,7 @@ def train_eval(
     learning_rate=LEARN_RATE,
     gamma=GAMMA,
     reward_scale_factor=SCALE,
-    gradient_clipping=None,
+    gradient_clipping=GRADIENT,
     # Parameters for eval
     num_eval_episodes=10,
     eval_interval=1000,
