@@ -1,6 +1,6 @@
 # Copyright 2019 - Present Aaron Ma.
 # All Rights Reserved.
-# python3 rl.py
+# python3 rl.py --root_dir=$HOME/tmp/dqn_v1/gym/CartPole-v0/ --alsologtostderr
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
