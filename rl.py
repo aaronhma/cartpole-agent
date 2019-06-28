@@ -48,7 +48,7 @@ def train_eval(
     # Params for target update
     target_update_tau=0.05,
     target_update_period=5,
-    # Params for train
+    # Parameters for train
     train_steps_per_iteration=1,
     batch_size=64,
     learning_rate=1e-3,
