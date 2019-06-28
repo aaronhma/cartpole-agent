@@ -55,7 +55,7 @@ def train_eval(
     gamma=0.99,
     reward_scale_factor=1.0,
     gradient_clipping=None,
-    # Params for eval
+    # Parameters for eval
     num_eval_episodes=10,
     eval_interval=1000,
     # Parameters for checkpoints, summaries, and logging
