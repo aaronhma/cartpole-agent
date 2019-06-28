@@ -33,6 +33,7 @@ flags.DEFINE_bool('use_ddqn', False,
                   'If True uses the DdqnAgent instead of the DqnAgent.')
 FLAGS = flags.FLAGS
 
+# START: @TODO
 
 @gin.configurable
 def train_eval(
