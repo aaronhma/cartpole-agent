@@ -264,7 +264,7 @@ def train_eval(
 
 
 def main(_):
-        # Ignore all information-related logs
+    # Ignore all information-related logs
     logging.set_verbosity(logging.INFO)
     # Enable resource variables
     tf.enable_resource_variables()
