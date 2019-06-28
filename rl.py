@@ -127,6 +127,7 @@ def train_eval(
     ]
 
     replay_observer = [replay_buffer.add_batch]
+    random_tf_policy.RandomTFPolicy()
 
 def main(_):
     # Ignore all information-related logs
