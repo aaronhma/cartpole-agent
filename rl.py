@@ -47,6 +47,7 @@ BATCH_SIZE = 64
 LEARN_RATE = 1e-3
 GAMMA = 0.99
 SCALE = 1.0
+GRADIENT
 # END: @TODO
 
 @gin.configurable
