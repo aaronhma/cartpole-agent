@@ -68,7 +68,7 @@ def train_eval(
     batch_size=BATCH_SIZE,
     learning_rate=LEARN_RATE,
     gamma=GAMMA,
-    reward_scale_factor=1.0,
+    reward_scale_factor=SCALE,
     gradient_clipping=None,
     # Parameters for eval
     num_eval_episodes=10,
