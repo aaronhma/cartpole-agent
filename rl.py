@@ -64,7 +64,7 @@ def train_eval(
     target_update_period=UPDATE_PERIOD,
     # Parameters for train
     train_steps_per_iteration=TRAIN_ITERATIONS,
-    batch_size=64,
+    batch_size=BATCH_SIZE,
     learning_rate=1e-3,
     gamma=0.99,
     reward_scale_factor=1.0,
