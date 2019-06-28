@@ -127,7 +127,7 @@ def train_eval(
     ]
 
     replay_observer = [replay_buffer.add_batch]
-    random_tf_policy.RandomTFPolicy()
+    initial_collect_policy = random_tf_policy.RandomTFPolicy()
     dynamic_step_driver.DynamicStepDriver()
 
 def main(_):
