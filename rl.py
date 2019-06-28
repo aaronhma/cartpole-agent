@@ -37,6 +37,7 @@ FLAGS = flags.FLAGS
 ENV_NAME = 'CartPole-v0'
 ITERATIONS
 LAYER_PARAMETERS
+COLLECT_STEPS
 # END: @TODO
 
 @gin.configurable
