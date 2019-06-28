@@ -34,6 +34,7 @@ flags.DEFINE_bool('use_ddqn', False,
 FLAGS = flags.FLAGS
 
 # START: @TODO
+ENV_NAME = ''
 # END: @TODO
 
 @gin.configurable
