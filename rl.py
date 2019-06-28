@@ -58,7 +58,7 @@ def train_eval(
     # Params for eval
     num_eval_episodes=10,
     eval_interval=1000,
-    # Params for checkpoints, summaries, and logging
+    # Parameters for checkpoints, summaries, and logging
     train_checkpoint_interval=10000,
     policy_checkpoint_interval=5000,
     rb_checkpoint_interval=20000,
