@@ -40,7 +40,7 @@ ENV_NAME = 'CartPole-v0'
 @gin.configurable
 def train_eval(
     root_dir,
-    env_name='CartPole-v0',
+    env_name=ENV_NAME,
     num_iterations=100000,
     fc_layer_params=(100,),
     # Parameters for collect
