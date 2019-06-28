@@ -119,6 +119,12 @@ def train_eval(
 
     eval_py_policy = py_tf_policy.PyTFPolicy(tf_agent.policy)
 
+    train_metrics = [
+        tf_metrics.NumberOfEpisodes(),
+        tf_metrics.EnvironmentSteps(),
+        tf_metrics.AverageReturnMetric(),
+        tf_metrics.AverageEpisodeLengthMetric(),
+    ]
 
 def main(_):
     # Ignore all information-related logs
