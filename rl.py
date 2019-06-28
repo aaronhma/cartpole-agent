@@ -60,7 +60,7 @@ def train_eval(
     epsilon_greedy=GREEDY,
     replay_buffer_capacity=BUFFER,
     # Parameters for target update
-    target_update_tau=0.05,
+    target_update_tau=TAU,
     target_update_period=5,
     # Parameters for train
     train_steps_per_iteration=1,
