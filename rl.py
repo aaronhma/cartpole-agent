@@ -45,7 +45,7 @@ def train_eval(
     collect_steps_per_iteration=1,
     epsilon_greedy=0.1,
     replay_buffer_capacity=100000,
-    # Params for target update
+    # Parameters for target update
     target_update_tau=0.05,
     target_update_period=5,
     # Parameters for train
