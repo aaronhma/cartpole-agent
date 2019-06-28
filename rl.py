@@ -52,7 +52,7 @@ GAMMA
 def train_eval(
     root_dir,
     env_name=ENV_NAME,
-    num_iterations=100000,
+    num_iterations=ITERATIONS,
     fc_layer_params=(100,),
     # Parameters for collect
     initial_collect_steps=1000,
