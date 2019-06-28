@@ -40,7 +40,7 @@ def train_eval(
     env_name='CartPole-v0',
     num_iterations=100000,
     fc_layer_params=(100,),
-    # Params for collect
+    # Parameters for collect
     initial_collect_steps=1000,
     collect_steps_per_iteration=1,
     epsilon_greedy=0.1,
