@@ -291,6 +291,6 @@ def main(_):
         num_iterations=FLAGS.num_iterations)
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     flags.mark_flag_as_required('root_dir')
     app.run(main)
