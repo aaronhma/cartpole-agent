@@ -126,6 +126,8 @@ def train_eval(
         tf_metrics.AverageEpisodeLengthMetric(),
     ]
 
+    replay_observer = [replay_buffer.add_batch]
+
 def main(_):
     # Ignore all information-related logs
     logging.set_verbosity(logging.INFO)
