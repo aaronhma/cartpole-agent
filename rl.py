@@ -46,6 +46,7 @@ TRAIN_ITERATIONS = 1
 BATCH_SIZE = 64
 LEARN_RATE = 1e-3
 GAMMA = 0.99
+SCALE = 1.00
 # END: @TODO
 
 @gin.configurable
