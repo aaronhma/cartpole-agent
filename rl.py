@@ -63,7 +63,7 @@ def train_eval(
     target_update_tau=TAU,
     target_update_period=UPDATE_PERIOD,
     # Parameters for train
-    train_steps_per_iteration=1,
+    train_steps_per_iteration=TRAIN_ITERATIONS,
     batch_size=64,
     learning_rate=1e-3,
     gamma=0.99,
