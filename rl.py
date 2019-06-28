@@ -128,7 +128,7 @@ def train_eval(
 
     replay_observer = [replay_buffer.add_batch]
     initial_collect_policy = random_tf_policy.RandomTFPolicy()
-    dynamic_step_driver.DynamicStepDriver()
+    initial_collect_op = dynamic_step_driver.DynamicStepDriver()
 
 def main(_):
     # Ignore all information-related logs
