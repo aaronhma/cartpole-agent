@@ -53,7 +53,7 @@ def train_eval(
     root_dir,
     env_name=ENV_NAME,
     num_iterations=ITERATIONS,
-    fc_layer_params=(100,),
+    fc_layer_params=LAYER_PARAMETERS,
     # Parameters for collect
     initial_collect_steps=1000,
     collect_steps_per_iteration=1,
