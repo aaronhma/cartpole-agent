@@ -58,7 +58,7 @@ def train_eval(
     initial_collect_steps=COLLECT_STEPS,
     collect_steps_per_iteration=COLLECT_STEPS,
     epsilon_greedy=GREEDY,
-    replay_buffer_capacity=100000,
+    replay_buffer_capacity=BUFFER,
     # Parameters for target update
     target_update_tau=0.05,
     target_update_period=5,
