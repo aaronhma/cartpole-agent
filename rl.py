@@ -57,7 +57,7 @@ def train_eval(
     # Parameters for collect
     initial_collect_steps=COLLECT_STEPS,
     collect_steps_per_iteration=COLLECT_STEPS,
-    epsilon_greedy=0.1,
+    epsilon_greedy=GREEDY,
     replay_buffer_capacity=100000,
     # Parameters for target update
     target_update_tau=0.05,
