@@ -34,7 +34,7 @@ flags.DEFINE_bool('use_ddqn', False,
 FLAGS = flags.FLAGS
 
 # START: @TODO
-ENV_NAME = ''
+ENV_NAME = 'CartPole-v0'
 # END: @TODO
 
 @gin.configurable
