@@ -61,7 +61,7 @@ def train_eval(
     replay_buffer_capacity=BUFFER,
     # Parameters for target update
     target_update_tau=TAU,
-    target_update_period=5,
+    target_update_period=UPDATE_PERIOD,
     # Parameters for train
     train_steps_per_iteration=1,
     batch_size=64,
