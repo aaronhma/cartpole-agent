@@ -1,3 +1,4 @@
+# Copyright 2019 TensorFlow Team & TensorFlow Agents team.
 # Copyright 2019 - Present Aaron Ma.
 # All Rights Reserved.
 # python3 rl.py --root_dir=$HOME/tmp/dqn_v1/gym/CartPole-v0/ --alsologtostderr
