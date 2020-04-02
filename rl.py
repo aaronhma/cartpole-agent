@@ -5,9 +5,7 @@
 import os
 import time
 
-from absl import app
-from absl import flags
-from absl import logging
+from absl import app, flags, logging
 
 import gin
 import tensorflow as tf
